@@ -14,7 +14,7 @@ local Tabs = { Main = Window:AddTab({ Title = "Choose the Game", Icon = "gamepad
 
 Tabs.Main:AddButton({
     Title = "Dig to Earth's CORE!",
-    Description = "Load script",
+    Description = "Load Dig to Earth's CORE!",
     Callback = function()
         Window:Destroy()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/Dig%20to%20Earth's%20CORE!%20Menu%20by%20Goiaba.lua%20Optimized.lua",true))()
@@ -23,7 +23,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Murder Mystery 2",
-    Description = "Load script",
+    Description = "Load Murder Mystery 2",
     Callback = function()
         Window:Destroy()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/Murder%20Mystery%202.lua",true))()
