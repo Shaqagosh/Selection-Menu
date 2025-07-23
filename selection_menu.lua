@@ -1,10 +1,10 @@
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "Game Selection",
-    SubTitle = "by Goiaba.lua",
+    Title = "Goiaba.lua",
+    SubTitle = "Game Selection",
     TabWidth = 130,
-    Size = UDim2.fromOffset(450, 300),
+    Size = UDim2.fromOffset(450, 350),
     Acrylic = true,
     Theme = "Dark",
     MinimizeKey = Enum.KeyCode.LeftControl
@@ -36,6 +36,15 @@ Tabs.Main:AddButton({
     Callback = function()
         Window:Destroy()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/DIG%20%F0%9F%92%9B.lua",true))()
+    end
+})
+
+Tabs.Main:AddButton({
+    Title = "Prospecting! 💎",
+    Description = "Load Prospecting! 💎",
+    Callback = function()
+        Window:Destroy()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/Prospecting!%20%F0%9F%92%8E.lua",true))()
     end
 })
 
