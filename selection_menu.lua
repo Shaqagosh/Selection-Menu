@@ -16,7 +16,7 @@ Tabs.Main:AddButton({
     Title = "Dig to Earth's CORE!",
     Description = "Load Dig to Earth's CORE!",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/Dig%20to%20Earth's%20CORE!%20Menu%20by%20Goiaba.lua%20Optimized.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/Dig%20to%20Earth's%20CORE!%20Menu%20by%20Goiaba.lua%20Optimized.lua"))()
     end
 })
 
@@ -24,7 +24,7 @@ Tabs.Main:AddButton({
     Title = "Murder Mystery 2",
     Description = "Load Murder Mystery 2",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/Murder%20Mystery%202.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/Murder%20Mystery%202.lua"))()
     end
 })
 
@@ -32,7 +32,7 @@ Tabs.Main:AddButton({
     Title = "DIG 💛",
     Description = "Load DIG 💛",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/DIG%20%F0%9F%92%9B.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/DIG%20%F0%9F%92%9B.lua"))()
     end
 })
 
@@ -40,7 +40,7 @@ Tabs.Main:AddButton({
     Title = "Prospecting! 💎",
     Description = "Load Prospecting! 💎",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/Prospecting!%20%F0%9F%92%8E.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/Prospecting!%20%F0%9F%92%8E.lua"))()
     end
 })
 
