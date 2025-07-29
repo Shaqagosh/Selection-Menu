@@ -16,7 +16,6 @@ Tabs.Main:AddButton({
     Title = "Dig to Earth's CORE!",
     Description = "Load Dig to Earth's CORE!",
     Callback = function()
-        Window:Destroy()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/Dig%20to%20Earth's%20CORE!%20Menu%20by%20Goiaba.lua%20Optimized.lua",true))()
     end
 })
@@ -25,7 +24,6 @@ Tabs.Main:AddButton({
     Title = "Murder Mystery 2",
     Description = "Load Murder Mystery 2",
     Callback = function()
-        Window:Destroy()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/Murder%20Mystery%202.lua",true))()
     end
 })
@@ -34,7 +32,6 @@ Tabs.Main:AddButton({
     Title = "DIG 💛",
     Description = "Load DIG 💛",
     Callback = function()
-        Window:Destroy()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/DIG%20%F0%9F%92%9B.lua",true))()
     end
 })
@@ -43,7 +40,6 @@ Tabs.Main:AddButton({
     Title = "Prospecting! 💎",
     Description = "Load Prospecting! 💎",
     Callback = function()
-        Window:Destroy()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Shaqagosh/Scripts-Menu/refs/heads/main/Prospecting!%20%F0%9F%92%8E.lua",true))()
     end
 })
